@@ -1,13 +1,34 @@
-'''import turtle
+#Square
+import turtle
+sq=turtle.Turtle()
+sq.right(0)
+sq.forward(100)
+for i in range(3):
+    sq.right(90)
+    sq.forward(100)
+turtle.done()
+
+#star
+import turtle
 star=turtle.Turtle()
-star.right(0)
+star.right(75)
 star.forward(100)
 for i in range(4):
-    star.right(90)
+    star.right(144)
     star.forward(100)
 turtle.done()
 
+#hexagon
 import turtle
+star=turtle.Turtle()
+star.right(0)
+star.forward(100)
+for i in range(5):
+    star.right(60)
+    star.forward(100)
+turtle.done()
+
+'''import turtle
 screen = turtle.Screen()
 screen.bgcolor("pink")
 spiral = turtle.Turtle()
@@ -46,7 +67,7 @@ for i in range(10):
 spiral.circle(25,100)
 spiral.circle(1,1)
 
-turtle.done()'''
+turtle.done()
 import turtle
 screen = turtle.Screen()
 screen.bgcolor("black")
@@ -59,4 +80,6 @@ for i in range(360):
     spiral.forward(i)
     spiral.right(0)
     spiral.left(100)
-turtle.done()
+turtle.done()'''
+
+
