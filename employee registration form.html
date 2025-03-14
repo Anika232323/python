@@ -1,0 +1,48 @@
+<html lan="en">
+<head>
+<meta name="viewport" content="width:device-width, initial-scale=1.0">
+<title>Employee Registration Form</title>
+</head>
+<body style="background-color:DarkSalmon;">
+<form method="post" enctype="multipart/form-data">
+<h1>Employee Registration</h1>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="phno">Phone Number:</label>
+<input type="number" id="phno" name="phno" required>
+<br><br>
+<label for="gender">Gender:</label>
+<input type="radio" id="gender" name="gender" value="Male">Male
+<input type="radio" id="gender" name="gender" value="Female">Female
+<input type="radio" id="gender" name="gender" value="Other">Other
+<br><br>
+<label for="skills">Skills:</label>
+<input type="checkbox" name="skills" value="Python">Python
+<input type="checkbox" name="skills" value="Java">Java
+<input type="checkbox" name="skills" value="JavaScript">JavaScript
+<input type="checkbox" name="skills" value="C++">C++
+<input type="checkbox" name="skills" value="HTML">HTML
+<br><br>
+<label for="dept">Department:</label>
+<select id="dept" name="dept">
+<option value="hr">HR</option>
+<option value="it">IT</option>
+<option value="finance">Finance</option>
+<option value="marketing">Marketing</option>
+</select>
+<br><br>
+<label for="file">Profile picture upload:</label>
+<input type="file" id="file" name="file" required>
+<br><br>
+<label for="doj">Date of Joining:</label>
+<input type="date" id="doj" name="doj" required>
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
